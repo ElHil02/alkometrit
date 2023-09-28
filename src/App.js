@@ -21,7 +21,7 @@ const BACCalculator = () => {
     <div>
       <h1>Blood Alcohol Content (BAC) Calculator</h1>
       <div>
-        <label htmlFor="bottles">Number of Bottles:</label>
+        <label htmlFor="bottles">Bottles:</label>
         <input
           type="number"
           id="bottles"
@@ -30,7 +30,7 @@ const BACCalculator = () => {
         />
       </div>
       <div>
-        <label htmlFor="weight">Weight (kg):</label>
+        <label htmlFor="weight">Weight:</label>
         <input
           type="number"
           id="weight"
@@ -39,7 +39,7 @@ const BACCalculator = () => {
         />
       </div>
       <div>
-        <label htmlFor="time">Time Since Drinking (hours):</label>
+        <label htmlFor="time">Time Since First Drink:</label>
         <input
           type="number"
           id="time"
